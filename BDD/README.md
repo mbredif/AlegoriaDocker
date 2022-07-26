@@ -49,13 +49,13 @@ docker exec -it alegoriadocker_dbclient_1 /bin/bash
 you have now acces to a commandline interface that can connect to the postgreSQL database
 and all the file you need are in the `\home` directory.
 
-To setup the database follow the instructions [here](BDD/README.md) in the `Creating the database` section
+To setup the database follow the instructions in the `Creating the database` section
 
 ## Creating the database ##
 
 ```
 sudo -u postgres psql
-postgres=# ALTER USER postgres WITH PASSWORD 'postgres'
+postgres=# ALTER USER postgres WITH PASSWORD 'postgres';
 postgres=# CREATE DATABASE alegoria;
 postgres=# GRANT ALL PRIVILEGES ON DATABASE alegoria to postgres;
 postgres=# \q
@@ -69,7 +69,7 @@ sudo -u postgres psql
 postgres=# \c alegoria
 alegoria=# CREATE EXTENSION postgis;
 alegoria=# CREATE EXTENSION postgis_topology;
-alegoria=# CREATE EXTENSION CREATE plpython3u;
+alegoria=# CREATE EXTENSION plpython3u;
 alegoria=# \q
 ```
 
