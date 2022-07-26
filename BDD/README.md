@@ -49,7 +49,7 @@ docker exec -it alegoriadocker_dbclient_1 /bin/bash
 you have now acces to a commandline interface that can connect to the postgreSQL database
 and all the file you need are in the `\home` directory.
 
-To setup the database follow the instructions [here](BDD/README.md) in the `Creating the database` section
+To setup the database follow the instructions in the `Creating the database` section
 
 ## Creating the database ##
 
