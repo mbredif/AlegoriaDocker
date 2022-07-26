@@ -26,7 +26,7 @@ class TestCreateMethods(unittest.TestCase):
             connection = psycopg2.connect(
                 user = "postgres",
                 password = "postgres",
-                host = "localhost",
+                host = "alegoriadocker_database_1",
                 port = "5432",
                 database = "alegoria"
             )
@@ -102,7 +102,7 @@ class TestCreateMethods(unittest.TestCase):
             connection = psycopg2.connect(
                 user = "postgres",
                 password = "postgres",
-                host = "localhost",
+                host = "alegoriadocker_database_1",
                 port = "5432",
                 database = "alegoria"
             )
@@ -151,7 +151,7 @@ class TestCreateMethods(unittest.TestCase):
             connection = psycopg2.connect(
                 user = "postgres",
                 password = "postgres",
-                host = "localhost",
+                host = "alegoriadocker_database_1",
                 port = "5432",
                 database = "alegoria"
             )
@@ -213,7 +213,7 @@ class TestCreateMethods(unittest.TestCase):
             connection = psycopg2.connect(
                 user = "postgres",
                 password = "postgres",
-                host = "localhost",
+                host = "alegoriadocker_database_1",
                 port = "5432",
                 database = "alegoria"
             )
