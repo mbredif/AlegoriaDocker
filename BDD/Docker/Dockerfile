@@ -6,3 +6,4 @@ RUN apt-get update \
     && apt-get install python3-pip -y \
     && pip install psycopg2-binary \
     && pip install pyquaternion \
+    && pip install pandas \
